@@ -33,7 +33,7 @@ public:
     int _chances = 5; /* Total "Try Again" for user */
 };
 
-
+/* How wrong the user guess is?*/
 string status(int randm, int guess) {
     Game Guess;
 
